@@ -183,8 +183,8 @@ char *mul_int(char *left, char *right, char can_free)
  * @right: The second number
  * @can_free: Specifies whether the given numbers can be freed
  *
- * Return: The product of the two floats, otherwise NULL[B[B[B[B[B[B[B[B[B[B
-*/
+ * Return: The product of the two floats, otherwise NULL
+ */
 char *mul_float(char *left, char *right, char can_free)
 {
 	char *left_c = str_copy(left);

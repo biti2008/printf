@@ -100,4 +100,4 @@ void convert_fmt_s(va_list *args_list, fmt_info_t *fmt_info)
 		for (i = 0; i < MAX(len, fmt_info->width) - len; i++)
 			_putchar(' ');
 	}
-}
+	}
